@@ -1,0 +1,50 @@
+{
+  "heroes": [
+    {
+      "id": 1,
+      "name": "Steve Rogers",
+      "strength": "Super Soldier",
+      "weaponId": 1
+    },
+    {
+      "id": 2,
+      "name": "Tony Stark",
+      "strength": "Genius Engineer",
+      "weaponId": 3
+    },
+    {
+      "name": "Clint Barton",
+      "strength": "Combat and archery",
+      "weaponId": 2,
+      "id": 3
+    },
+    {
+      "name": "Bruce Banner",
+      "strength": "Magnimous strength",
+      "weaponId": 4,
+      "id": 6
+    }
+  ],
+  "weapons": [
+    {
+      "id": 1,
+      "name": "Shield",
+      "damage": "Moderate"
+    },
+    {
+      "id": 2,
+      "name": "Bow and arrows",
+      "damage": "Low"
+    },
+    {
+      "id": 3,
+      "name": "Arc reactor",
+      "damage": "High"
+    },
+    {
+      "id": 4,
+      "name": "Weapon in itself",
+      "damage": "High"
+    }
+  ]
+}

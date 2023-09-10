@@ -1,0 +1,27 @@
+{
+  "name": "superheroes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node build/index.js",
+    "watch-db": "json-server --watch db.json",
+    "watch-ts": "tsc-watch --onSuccess \"npm start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/graphql": "^14.5.0",
+    "@types/node": "^20.6.0",
+    "ts-node": "^10.9.1",
+    "tsc-watch": "^6.0.4",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.9.3",
+    "axios": "^1.5.0",
+    "graphql": "^16.8.0",
+    "json-server": "^0.17.3"
+  }
+}
